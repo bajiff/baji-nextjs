@@ -1,4 +1,4 @@
-import Posts from "@/app/components/ui/Posts";
+import Postlists from "@/app/components/ui/Postlists";
 import getPosts from "@/app/lib/api";
 
 const Page = async () => {
@@ -11,7 +11,7 @@ const Page = async () => {
         <p>Baji News adalah sebuah website berita yang dibuat oleh Mr. Baji D Lovro dengan nama asli Bagus Aji Fernando yang rela membaut website dengan suka cita dan penuh hati</p>
       </div>
       
-      <Posts posts={postsList} />
+      <Postlists posts={postsList} />
     </>
   )
 }

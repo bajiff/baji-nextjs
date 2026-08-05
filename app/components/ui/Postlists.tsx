@@ -1,16 +1,11 @@
 import Link from "next/link";
-
-interface Post {
-  id: number
-  title: string
-  body: string
-}
+import {Post} from "@/app/types/index";
 
 interface PostProps {
   posts : Post[]
 }
 
-const Posts = ({posts}: PostProps) => {
+const Postlists = ({posts}: PostProps) => {
 
  
   return (
@@ -26,4 +21,4 @@ const Posts = ({posts}: PostProps) => {
       </div>
   )
 }
-export default Posts;
+export default Postlists;
