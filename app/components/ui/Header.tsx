@@ -6,7 +6,7 @@ const Header = () => {
       <nav>
         <div className="logo">
           <Link href="/">
-          <Image src="https://avatars.githubusercontent.com/u/171104585?v=4" alt="Ini Logo Baji" width={100} height={100} about="Belajar" title="Baji Logo" />
+          <Image src="https://img.icons8.com/?size=100&id=111062&format=png&color=000000" alt="Ini Logo Baji" width={100} height={100} about="Belajar" title="Baji Logo" />
           </Link>
           <div className="nav-links">
           <Link href="/about">About</Link>
