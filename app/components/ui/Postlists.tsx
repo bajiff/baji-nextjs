@@ -12,7 +12,7 @@ const Postlists = ({posts}: PostProps) => {
       <div className="post-list">
       {posts.map((post:Post) => (
         <div key={post.id } className={`post-item`}>
-          <h2><Link href="/">Judul: {post.title}</Link></h2>
+          <h2><Link href={`posts/${post.id}`}>Judul: {post.title}</Link></h2>
           <p>No: {post.id}</p>
           <p>Deskripsi:</p>
           <p>{post.body}</p>
