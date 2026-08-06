@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import {ThemeSwitcher} from "@/app/components/ui/index";
 const Header = () => {
   return (
     <header className="header">
@@ -15,6 +16,7 @@ const Header = () => {
           <Link href="/social-media">Social Media</Link>
           </div>
         </div>
+        <ThemeSwitcher/>
       </nav>
     </header>
   );
