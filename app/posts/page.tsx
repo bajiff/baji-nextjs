@@ -7,10 +7,9 @@ const Page = async () => {
   return (
     <>
       <div className="main-heading">
-        <h1>About</h1>
-        <p>Baji News adalah sebuah website berita yang dibuat oleh Mr. Baji D Lovro dengan nama asli Bagus Aji Fernando yang rela membaut website dengan suka cita dan penuh hati</p>
+        <h1>Posts</h1>
+        <p>Baji Posts adalah sebuah kumpulan berita yang dibuat oleh Mr. Baji D Lovro dengan nama asli Bagus Aji Fernando yang rela membaut website dengan suka cita dan penuh hati</p>
       </div>
-      
       <Postlists posts={postsList} />
     </>
   )
